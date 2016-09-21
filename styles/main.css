@@ -1,0 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:200';
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: Raleway, sans-serif;
+	background-color: #3c202f;
+	color: #fd7156;  
+}

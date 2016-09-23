@@ -2,9 +2,59 @@
 *{
     margin: 0;
     padding: 0;
+ /*   border: solid 1px deeppink; */ 
 }
 body{
 	font-family: Raleway, sans-serif;
 	background-color: #3c202f;
 	color: #fd7156;  
+}
+#main-container{
+    margin:auto;
+    width:70%;
+}
+#header{
+    padding:0;
+    text-align:left;
+    text-transform: uppercase;
+    letter-spacing:5px;
+}
+h1{
+    color:#fd7156;
+    font-size: 3em;
+}
+h2{
+    color:#3bd08c;
+    font-size: 1.8em;    
+}
+.link-box {
+    float: left;
+    border:2px solid;
+    width:200px;
+    height:200px;
+    color:#3c202f;      
+}
+#box-wrapper {
+    width:500px;
+}
+#about{
+    background-color:#466f8b;
+}
+#projects{
+    background-color:#c02942; 
+}
+#resume{
+    background-color:#25ac6e; 
+}
+#contact{
+    background-color:#d95b43;   
+}
+@media (max-width: 768px) {
+    #header{
+    padding:40px;
+    margin-left:0;
+    }
+    h1{
+        font-size:2.5em;
+    }
 }
